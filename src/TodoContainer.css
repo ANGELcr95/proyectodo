@@ -1,0 +1,110 @@
+.TodoContainer{
+  position: relative;
+  width: 80%;
+  border: 0.1rem white solid;
+  margin: 3%;
+  padding: 2%;
+  border-radius: 1rem;
+
+}
+input{
+    height: 3rem;
+    width: 30%;
+    border-radius: 0.5rem;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    height: 3.3rem;
+    width: 35%;
+    color: rgb(34, 34, 34);
+    background-color: rgba(179, 180, 170, 0.87);
+    outline:none;
+    border:0.3rem solid white;
+}
+
+::placeholder{
+  text-align: center;
+  color: rgb(85, 85, 85);
+}
+
+input:focus {
+  height: 3.3rem;
+  width: 35%;
+  color: rgb(0, 0, 0);
+  background-color: rgba(221, 219, 219, 0.87);
+  outline:none;
+  border:0.3rem solid white;
+}
+
+.AddTask button{
+  width: 40%;
+  font-size: 1.3rem;
+  height:3.5rem;
+  margin-bottom: 2%;
+  background-color: rgb(151, 151, 151);
+  color:white;
+  border-radius: 0.4rem;
+  border: none;
+  cursor: pointer;
+}
+
+.Task button{
+  width: 40%;
+  font-size: 1.3rem;
+  height:3.5rem;
+  margin-bottom: 2%;
+  background-color: rgba(96, 146, 81, 0.897);
+  color:white;
+  border-radius: 0.4rem;
+  border: none;
+  cursor: pointer;
+}
+
+.Task button:hover{
+  background-color: rgb(27, 196, 4);
+}
+
+.AddTask button:hover{
+  background-color: rgb(212, 212, 212);
+}
+
+.OptionsTodo{
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.OptionsTodo button{
+  width: 33%;
+  font-size: 1.3rem;
+  height:3.5rem;
+  margin-bottom: 2%;
+  background-color: rgba(83, 83, 83, 0.897);
+  color:white;
+  border-radius: 0.4rem;
+  border: none;
+  cursor: pointer;
+}
+
+.OptionsTodo button:hover{
+  background-color: rgba(223, 224, 224, 0.795);
+}
+
+.NumberTask{
+  position: absolute;
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.NumberTask div {
+  background-color: rgba(212, 64, 64, 0.582);
+  border: oldlace 1px solid;
+  border-radius: 50%;
+  width: 2.5rem;
+  text-align: center;
+}
+
+.Percentage {
+  font-size: 4.5rem;
+  margin-bottom: 2%;
+}

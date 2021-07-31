@@ -1,0 +1,6 @@
+// if(!res.data){
+            //     const found = dataTodo.find(element=> element.id === id)
+            //     let index = dataTodo.indexOf(found)
+            //     setDataTodo(dataTodo.splice(index,1))
+            //     setDataTodo(dataTodo)
+            // }
